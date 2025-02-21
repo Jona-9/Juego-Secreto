@@ -39,12 +39,10 @@ function generarNumeroSecreto() {
       numerosecreto = Math.floor(Math.random()*Numero_Deintentos)+1;
       }
       numerosSorteados.push(numerosecreto);
-      console.log(numerosecreto);
       return numerosecreto;
    }else{
       asignarTextoElemento('p','Completaste todos los números');
    }
-    console.log(numerosSorteados);
    }
    
 
